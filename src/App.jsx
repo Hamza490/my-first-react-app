@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Greeting from './Greeting.jsx'
+import List from './List.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const animals = ["Lion", "Cow", "Snake", "Lizard"];
 
   return (
-    <>
-    <Greeting />
-
-    </>
-  )
+    <div>
+      <h1>Animals: </h1>
+      <List animals={animals} />
+    </div>
+  );
 }
 
-export default App
+export default App;

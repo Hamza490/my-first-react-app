@@ -1,7 +1,7 @@
 import List from './List.jsx';
 
 function App() {
-  const animals = ["Lion", "Cow", "Snake", "Lizard"];
+  const animals = ["Lion", "Cow", "Snake", "Lizard", "Pidgeon", "Dog"];
 
   return (
     <div>
